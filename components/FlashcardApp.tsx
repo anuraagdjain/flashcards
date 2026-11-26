@@ -465,7 +465,7 @@ export function FlashcardApp() {
             Anuraag Jain
           </a>
         </span>
-        <span>{words.length} words · edit words.json to add more</span>
+        <span>{words.length} words</span>
       </footer>
 
       {showWords ? (
