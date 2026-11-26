@@ -1,7 +1,42 @@
 [
   {
-    "id": "verb-type-1",
-    "title": "Verb type 1",
-    "body": "It ends with two vowels. Drop the last letter, which is usually a or ä."
+    "id": "place-endings",
+    "title": "Place and country endings",
+    "body": "Add -ssa/-ssä for 'in', -sta/-stä for 'from', and -lla/-llä for 'at' to place and country names. Example: New Yorkissa. Towns associated with lakes or water bodies often take -lla: Tampereella, Vantaalla."
+  },
+  {
+    "id": "a-or-ae",
+    "title": "A or ä",
+    "body": "If a word ends with a, o or u, choose a. Otherwise choose ä."
+  },
+  {
+    "id": "vowel-groups",
+    "title": "Vowel groups",
+    "body": "Back vowels: a, o, u. Front vowels: ä, ö, y. Neutral vowels: e, i. If a word ends with e or i, use front vowels."
+  },
+  {
+    "id": "in-from",
+    "title": "In and from",
+    "body": "-ssa/-ssä means 'in'. -sta/-stä means 'from'."
+  },
+  {
+    "id": "genitive",
+    "title": "Genitive",
+    "body": "If a word ends in a vowel, add -n. If it ends in a consonant, add -in; the i is a buffer vowel."
+  },
+  {
+    "id": "street-endings",
+    "title": "Street endings",
+    "body": "Street names always take -lla/-llä: katu → kadulla, tie → tiellä, kuja → kujalla."
+  },
+  {
+    "id": "tehda-nahda",
+    "title": "Tehdä and nähdä",
+    "body": "tehdä → teen, teet, tekee, teemme, teette, tekevät. nähdä → näen, näet, näkee, näemme, näette, näkevät."
+  },
+  {
+    "id": "fields-of-study",
+    "title": "Fields of study",
+    "body": "For most fields of study, add -a to the end: kemia → kemiaa, historia → historiaa. If the field ends in -tiede, add -ttä instead: tiede → tiedettä. The meaning does not change. If there is no Finnish name for your course, add -in to the ending."
   }
 ]

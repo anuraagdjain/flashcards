@@ -14,12 +14,16 @@ Next.js 15 app (App Router, static export) for practising Finnish → English vo
 | --- | --- |
 | `words.json` | The deck: `[{ "finnish": "...", "english": "..." }]` |
 | `rules.json` | Grammar rules, maintained separately from the deck |
+| `verb-types.json` | Verb type notes, separate from rules |
 | `lib/deck.ts` | Deck loading, session creation, merge/shuffle/count helpers |
 | `lib/rules.ts` | Rule loading and normalisation |
+| `lib/verb-types.ts` | Verb type loading |
 | `lib/storage.ts` | localStorage persistence for the session |
-| `components/SiteHeader.tsx` | Shared header with Cards / Rules section nav |
+| `components/SiteHeader.tsx` | Shared header with Cards / Rules / Verb types nav |
+| `components/NotesPage.tsx` | Shared layout for rules and verb types pages |
 | `components/FlashcardApp.tsx` | Main UI: deck stats, controls, summary |
 | `app/rules/page.tsx` | Separate rules page (`/rules`) |
+| `app/verb-types/page.tsx` | Separate verb types page (`/verb-types`) |
 | `components/Flashcard.tsx` | 3D flip card |
 | `__tests__/deck.test.ts` | Tests for deck logic |
 

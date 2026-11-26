@@ -50,7 +50,23 @@ Grammar rules are kept separately from the deck in `rules.json`:
 ]
 ```
 
-They show up on the separate `/rules` page, reachable from the **Cards / Rules** nav in the header.
+They show up on the separate `/rules` page, reachable from the **Cards / Rules / Verb types** nav in the header.
+
+## Add verb types
+
+Verb type notes live in their own file, `verb-types.json`, using the same shape as rules:
+
+```json
+[
+  {
+    "id": "verb-type-1",
+    "title": "Verb type 1",
+    "body": "It ends with two vowels. Drop the last letter, which is usually a or ä."
+  }
+]
+```
+
+They show up on the separate `/verb-types` page.
 
 ## Controls
 

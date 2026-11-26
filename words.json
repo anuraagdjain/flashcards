@@ -101,7 +101,7 @@
   },
   {
     "finnish": "kauppa",
-    "english": "shop"
+    "english": "shop / store"
   },
   {
     "finnish": "raha",
@@ -433,7 +433,7 @@
   },
   {
     "finnish": "vähän",
-    "english": "a little / some"
+    "english": "a little / a bit"
   },
   {
     "finnish": "saksaa",
@@ -537,7 +537,7 @@
   },
   {
     "finnish": "lisäksi",
-    "english": "in addition / besides"
+    "english": "moreover / in addition"
   },
   {
     "finnish": "minun mies",
@@ -577,7 +577,7 @@
   },
   {
     "finnish": "mikä",
-    "english": "what / which"
+    "english": "what (definitive)"
   },
   {
     "finnish": "tenttikirja",
@@ -701,7 +701,7 @@
   },
   {
     "finnish": "missä",
-    "english": "where"
+    "english": "where / where at"
   },
   {
     "finnish": "kiinassa",
@@ -714,5 +714,645 @@
   {
     "finnish": "puhelinnumero",
     "english": "phone number"
+  },
+  {
+    "finnish": "laulaa",
+    "english": "to sing"
+  },
+  {
+    "finnish": "etsiä",
+    "english": "to search / look for"
+  },
+  {
+    "finnish": "tanssia",
+    "english": "to dance"
+  },
+  {
+    "finnish": "harrastaa",
+    "english": "to be into something / to have as a hobby"
+  },
+  {
+    "finnish": "ajaa",
+    "english": "to drive"
+  },
+  {
+    "finnish": "olla",
+    "english": "to be"
+  },
+  {
+    "finnish": "matkustaa",
+    "english": "to travel"
+  },
+  {
+    "finnish": "pelata",
+    "english": "to play (sports / games)"
+  },
+  {
+    "finnish": "soittaa",
+    "english": "to call / play an instrument"
+  },
+  {
+    "finnish": "vai",
+    "english": "or"
+  },
+  {
+    "finnish": "mitä",
+    "english": "what (unknown)"
+  },
+  {
+    "finnish": "kieltä",
+    "english": "language"
+  },
+  {
+    "finnish": "äidinkieli",
+    "english": "native language"
+  },
+  {
+    "finnish": "puhekieli",
+    "english": "spoken language"
+  },
+  {
+    "finnish": "kirjakieli",
+    "english": "written language"
+  },
+  {
+    "finnish": "lempinimi",
+    "english": "nickname"
+  },
+  {
+    "finnish": "pari",
+    "english": "pair / couple"
+  },
+  {
+    "finnish": "töissä",
+    "english": "at work"
+  },
+  {
+    "finnish": "myös",
+    "english": "also"
+  },
+  {
+    "finnish": "sujuvasti",
+    "english": "fluently"
+  },
+  {
+    "finnish": "ruotsia",
+    "english": "Swedish (language)"
+  },
+  {
+    "finnish": "kiinaa",
+    "english": "Chinese (language)"
+  },
+  {
+    "finnish": "japania",
+    "english": "Japanese (language)"
+  },
+  {
+    "finnish": "kertaus",
+    "english": "recap"
+  },
+  {
+    "finnish": "maamme",
+    "english": "national anthem"
+  },
+  {
+    "finnish": "yhdessä",
+    "english": "together"
+  },
+  {
+    "finnish": "vartti",
+    "english": "quarter / 15 minutes"
+  },
+  {
+    "finnish": "kanssa",
+    "english": "with"
+  },
+  {
+    "finnish": "asunto",
+    "english": "apartment"
+  },
+  {
+    "finnish": "ihan",
+    "english": "quite / completely"
+  },
+  {
+    "finnish": "vaan",
+    "english": "but"
+  },
+  {
+    "finnish": "ei ... vaan",
+    "english": "not X but Y"
+  },
+  {
+    "finnish": "meillä on",
+    "english": "we have"
+  },
+  {
+    "finnish": "osoite",
+    "english": "address"
+  },
+  {
+    "finnish": "on",
+    "english": "is"
+  },
+  {
+    "finnish": "tervetuloa",
+    "english": "welcome"
+  },
+  {
+    "finnish": "käydä",
+    "english": "to visit"
+  },
+  {
+    "finnish": "täytyä",
+    "english": "to need to / must"
+  },
+  {
+    "finnish": "katuosoite",
+    "english": "street address"
+  },
+  {
+    "finnish": "katu",
+    "english": "street"
+  },
+  {
+    "finnish": "tie",
+    "english": "road"
+  },
+  {
+    "finnish": "kuja",
+    "english": "alley"
+  },
+  {
+    "finnish": "sähköpostiosoite",
+    "english": "email address"
+  },
+  {
+    "finnish": "purkaa",
+    "english": "to unpack"
+  },
+  {
+    "finnish": "muuttolaatikko",
+    "english": "moving box"
+  },
+  {
+    "finnish": "apu",
+    "english": "help"
+  },
+  {
+    "finnish": "tarvita",
+    "english": "to need"
+  },
+  {
+    "finnish": "laturi",
+    "english": "charger"
+  },
+  {
+    "finnish": "kännykkä",
+    "english": "cellphone"
+  },
+  {
+    "finnish": "akku",
+    "english": "rechargeable battery"
+  },
+  {
+    "finnish": "loppua",
+    "english": "to end / to finish"
+  },
+  {
+    "finnish": "kohta",
+    "english": "soon"
+  },
+  {
+    "finnish": "katsoa",
+    "english": "to look"
+  },
+  {
+    "finnish": "tuo",
+    "english": "that"
+  },
+  {
+    "finnish": "tuosta",
+    "english": "from that"
+  },
+  {
+    "finnish": "laatikko",
+    "english": "box"
+  },
+  {
+    "finnish": "jo",
+    "english": "already"
+  },
+  {
+    "finnish": "tyhjä",
+    "english": "empty"
+  },
+  {
+    "finnish": "saat",
+    "english": "you get"
+  },
+  {
+    "finnish": "voida",
+    "english": "to be able to / can"
+  },
+  {
+    "finnish": "käyttää",
+    "english": "to use"
+  },
+  {
+    "finnish": "sitten",
+    "english": "then"
+  },
+  {
+    "finnish": "tieto",
+    "english": "information"
+  },
+  {
+    "finnish": "kone",
+    "english": "machine"
+  },
+  {
+    "finnish": "tietokone",
+    "english": "computer"
+  },
+  {
+    "finnish": "kello",
+    "english": "watch / o'clock"
+  },
+  {
+    "finnish": "avain",
+    "english": "key"
+  },
+  {
+    "finnish": "avata",
+    "english": "to open"
+  },
+  {
+    "finnish": "avaimet",
+    "english": "keys"
+  },
+  {
+    "finnish": "ohjelmaan",
+    "english": "programme"
+  },
+  {
+    "finnish": "maisteriohjelmaan",
+    "english": "master's programme"
+  },
+  {
+    "finnish": "myöhästyn",
+    "english": "I'm late"
+  },
+  {
+    "finnish": "tulen",
+    "english": "I come"
+  },
+  {
+    "finnish": "vasta",
+    "english": "not until"
+  },
+  {
+    "finnish": "voitteko",
+    "english": "can you?"
+  },
+  {
+    "finnish": "kuinka",
+    "english": "how"
+  },
+  {
+    "finnish": "miten",
+    "english": "how"
+  },
+  {
+    "finnish": "saan",
+    "english": "I get"
+  },
+  {
+    "finnish": "saada",
+    "english": "to get"
+  },
+  {
+    "finnish": "ystävällisin terveisin",
+    "english": "best regards"
+  },
+  {
+    "finnish": "uida",
+    "english": "to swim"
+  },
+  {
+    "finnish": "viedä",
+    "english": "to take / to remove"
+  },
+  {
+    "finnish": "tupakoida",
+    "english": "to smoke"
+  },
+  {
+    "finnish": "pulla",
+    "english": "sweet bun"
+  },
+  {
+    "finnish": "ulkona",
+    "english": "outside (eating out)"
+  },
+  {
+    "finnish": "jotakin",
+    "english": "something"
+  },
+  {
+    "finnish": "mennä",
+    "english": "to go"
+  },
+  {
+    "finnish": "mennään",
+    "english": "let's go"
+  },
+  {
+    "finnish": "nälkä",
+    "english": "hunger"
+  },
+  {
+    "finnish": "pitää",
+    "english": "to need / to keep"
+  },
+  {
+    "finnish": "jaksaa",
+    "english": "to have energy / to manage"
+  },
+  {
+    "finnish": "tilata",
+    "english": "to order"
+  },
+  {
+    "finnish": "tilataan",
+    "english": "let's order"
+  },
+  {
+    "finnish": "odottaa",
+    "english": "to wait"
+  },
+  {
+    "finnish": "verkkosivu",
+    "english": "web page"
+  },
+  {
+    "finnish": "sivu",
+    "english": "page"
+  },
+  {
+    "finnish": "haluta",
+    "english": "to want"
+  },
+  {
+    "finnish": "voin",
+    "english": "I can"
+  },
+  {
+    "finnish": "ottaa",
+    "english": "to take"
+  },
+  {
+    "finnish": "kasvispizza",
+    "english": "vegetarian pizza"
+  },
+  {
+    "finnish": "tonnikala",
+    "english": "tuna"
+  },
+  {
+    "finnish": "kinkku",
+    "english": "ham"
+  },
+  {
+    "finnish": "yhteensä",
+    "english": "altogether / in total"
+  },
+  {
+    "finnish": "valmis",
+    "english": "ready / done"
+  },
+  {
+    "finnish": "pizzakuski",
+    "english": "pizza delivery driver"
+  },
+  {
+    "finnish": "tulla",
+    "english": "to come"
+  },
+  {
+    "finnish": "ovikello",
+    "english": "doorbell"
+  },
+  {
+    "finnish": "vau",
+    "english": "wow"
+  },
+  {
+    "finnish": "ihan oikein",
+    "english": "that's correct"
+  },
+  {
+    "finnish": "kana",
+    "english": "chicken"
+  },
+  {
+    "finnish": "mehu",
+    "english": "juice"
+  },
+  {
+    "finnish": "peruna",
+    "english": "potato"
+  },
+  {
+    "finnish": "pestä",
+    "english": "to wash"
+  },
+  {
+    "finnish": "purra",
+    "english": "to bite"
+  },
+  {
+    "finnish": "keskustella",
+    "english": "to discuss"
+  },
+  {
+    "finnish": "kemia",
+    "english": "chemistry"
+  },
+  {
+    "finnish": "fysiikka",
+    "english": "physics"
+  },
+  {
+    "finnish": "historia",
+    "english": "history"
+  },
+  {
+    "finnish": "fotoniikka",
+    "english": "photonics"
+  },
+  {
+    "finnish": "kalenteri",
+    "english": "calendar"
+  },
+  {
+    "finnish": "paperi",
+    "english": "paper"
+  },
+  {
+    "finnish": "puhelin",
+    "english": "phone"
+  },
+  {
+    "finnish": "aamupala",
+    "english": "breakfast"
+  },
+  {
+    "finnish": "syntymäpäivä",
+    "english": "birthday"
+  },
+  {
+    "finnish": "kukka",
+    "english": "flower"
+  },
+  {
+    "finnish": "kipeä",
+    "english": "sick"
+  },
+  {
+    "finnish": "kuski",
+    "english": "driver"
+  },
+  {
+    "finnish": "riisi",
+    "english": "rice"
+  },
+  {
+    "finnish": "tuoda",
+    "english": "to bring"
+  },
+  {
+    "finnish": "auttaa",
+    "english": "to help"
+  },
+  {
+    "finnish": "tänään",
+    "english": "today"
+  },
+  {
+    "finnish": "kakku",
+    "english": "cake"
+  },
+  {
+    "finnish": "lahja",
+    "english": "gift"
+  },
+  {
+    "finnish": "sisääntulokerros",
+    "english": "entrance floor"
+  },
+  {
+    "finnish": "ovet avautuvat",
+    "english": "the doors will open"
+  },
+  {
+    "finnish": "keittiö",
+    "english": "kitchen"
+  },
+  {
+    "finnish": "peli",
+    "english": "game"
+  },
+  {
+    "finnish": "tosi",
+    "english": "really (colloq) / true (adj)"
+  },
+  {
+    "finnish": "vuotta",
+    "english": "year (partitive)"
+  },
+  {
+    "finnish": "ostaa",
+    "english": "to buy"
+  },
+  {
+    "finnish": "eilen",
+    "english": "yesterday"
+  },
+  {
+    "finnish": "jalkapalloa",
+    "english": "football"
+  },
+  {
+    "finnish": "kotikaupunki",
+    "english": "home town"
+  },
+  {
+    "finnish": "pääaine",
+    "english": "major (subject of study)"
+  },
+  {
+    "finnish": "soveltava",
+    "english": "applied"
+  },
+  {
+    "finnish": "soluasunto",
+    "english": "student flat"
+  },
+  {
+    "finnish": "ratsastus",
+    "english": "horseback riding"
+  },
+  {
+    "finnish": "oma",
+    "english": "own"
+  },
+  {
+    "finnish": "minulla on",
+    "english": "I have"
+  },
+  {
+    "finnish": "hevonen",
+    "english": "horse"
+  },
+  {
+    "finnish": "sivuaine",
+    "english": "minor (subject of study)"
+  },
+  {
+    "finnish": "sen",
+    "english": "its / of it"
+  },
+  {
+    "finnish": "metsätiede",
+    "english": "forestry"
+  },
+  {
+    "finnish": "kuva",
+    "english": "picture / photo"
+  },
+  {
+    "finnish": "valokuva",
+    "english": "photograph / photo"
+  },
+  {
+    "finnish": "painava",
+    "english": "heavy"
+  },
+  {
+    "finnish": "osata",
+    "english": "to know how to do something"
+  },
+  {
+    "finnish": "pitkään",
+    "english": "for a long time"
+  },
+  {
+    "finnish": "todella hyvin",
+    "english": "really well"
+  },
+  {
+    "finnish": "lähteä",
+    "english": "to leave / to go"
   }
 ]

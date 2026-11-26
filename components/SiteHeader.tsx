@@ -2,7 +2,7 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 type SiteHeaderProps = {
-  active: "cards" | "rules";
+  active: "cards" | "rules" | "verb-types";
 };
 
 export function SiteHeader({ active }: SiteHeaderProps) {
@@ -20,6 +20,14 @@ export function SiteHeader({ active }: SiteHeaderProps) {
           /
         </span>
         <NavItem label="Rules" href="/rules" isActive={active === "rules"} />
+        <span className="text-[#c4c4c4]" aria-hidden="true">
+          /
+        </span>
+        <NavItem
+          label="Verb types"
+          href="/verb-types"
+          isActive={active === "verb-types"}
+        />
       </nav>
     </header>
   );

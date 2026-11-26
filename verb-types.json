@@ -1,0 +1,22 @@
+[
+  {
+    "id": "verb-type-1",
+    "title": "Verb type 1",
+    "body": "It ends with two vowels. Drop the last letter, which is usually a or ä."
+  },
+  {
+    "id": "verb-type-2",
+    "title": "Verb type 2",
+    "body": "Words ending in -da/-dä: drop that ending, then add the personal ending. The hän form has no ending. Examples: juoda → juo, saada → saa, syödä → syö."
+  },
+  {
+    "id": "verb-type-3",
+    "title": "Verb type 3",
+    "body": "Endings -la/-lä, -na/-nä, -sta/-stä, -ra/-rä: drop the last two letters and add e. Examples: tulla → tule, mennä → mene, pestä → pese, purra → pure. After that, add the personal ending as in type 1. In the hän form, double the e. Example: opiskella → opiskelen (minä)."
+  },
+  {
+    "id": "verb-type-4",
+    "title": "Verb type 4",
+    "body": "Vowel + -ta/-tä: remove the t, then add the type 1 ending. Examples: pelata → pelaa, haluta → halua. In the hän form, if it ends in -aa/-ää, add no ending; otherwise add the ending."
+  }
+]
