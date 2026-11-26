@@ -1,0 +1,46 @@
+# Finnish Flashcards
+
+Next.js 15 app (App Router, static export) for practising Finnish → English vocabulary.
+
+## Stack
+
+- TypeScript, React 19, Next.js 15 (static export), Tailwind CSS
+- No backend — all state in localStorage
+- Cloudflare Workers static assets via Wrangler (`wrangler.jsonc`)
+
+## Key Files
+
+| File | Purpose |
+| --- | --- |
+| `words.json` | The deck: `[{ "finnish": "...", "english": "..." }]` |
+| `lib/deck.ts` | Deck loading, session creation, merge/shuffle/count helpers |
+| `lib/storage.ts` | localStorage persistence for the session |
+| `components/FlashcardApp.tsx` | Main UI: deck stats, controls, summary |
+| `components/Flashcard.tsx` | 3D flip card |
+| `__tests__/deck.test.ts` | Tests for deck logic |
+
+## Session Shape
+
+```ts
+order: number[]                  // word indices in this session
+position: number                 // current index into order
+statuses: Record<string, WordStatus> // keyed by lowercased Finnish word
+mode: "all" | "learning"
+reviewed: number
+again: number
+```
+
+## Behaviour
+
+- Progress is per Finnish word, so editing `words.json` keeps existing marks.
+- New words are appended to a stored session by `mergeSession`.
+- "Again" marks a card `learning`; "Got it" marks it `known`.
+- Summary offers a review session containing only `learning` cards.
+- Keyboard shortcuts: Space/Enter flip, ←/→ prev/skip, 1/A again, 2/K known.
+
+## Commands
+
+- `npm run dev` — next dev
+- `npm test` — vitest
+- `npm run build` — static export to `./out`
+- `npm run deploy` — build + `wrangler deploy`

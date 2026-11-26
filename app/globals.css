@@ -1,0 +1,100 @@
+/* Design inspiration: oguzeroglu.dev */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --fg: #000;
+    --bg: #fff;
+    --muted: #6b6b6b;
+    --border: #000;
+    --rule-thin: 1px solid #000;
+    --rule-double: 3px double #000;
+    --gutter: 160px;
+    --gutter-pad: 28px;
+    --pad-x: 32px;
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 0%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 0%;
+    --primary: 0 0% 0%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 0%;
+    --muted: 0 0% 42%;
+    --muted-foreground: 0 0% 42%;
+    --accent: 0 0% 96%;
+    --accent-foreground: 0 0% 0%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 0%;
+    --input: 0 0% 85%;
+    --ring: 0 0% 0%;
+    --radius: 0;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-white text-black antialiased;
+    font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco,
+      Consolas, monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    text-rendering: geometricPrecision;
+  }
+  ::selection {
+    background: #000;
+    color: #fff;
+  }
+}
+
+@layer utilities {
+  .flip-card {
+    perspective: 1600px;
+  }
+
+  .flip-inner {
+    position: relative;
+    min-height: 340px;
+    transform-style: preserve-3d;
+    transition: transform 480ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+
+  .flip-inner.is-flipped {
+    transform: rotateY(180deg);
+  }
+
+  .flip-face {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .flip-face-back {
+    transform: rotateY(180deg);
+  }
+
+  @media (max-width: 640px) {
+    .flip-inner {
+      min-height: 300px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .flip-inner {
+      transition: none;
+    }
+  }
+}
