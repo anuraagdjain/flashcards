@@ -4,6 +4,12 @@ export type Word = {
   english: string;
 };
 
+export type Rule = {
+  id: string;
+  title: string;
+  body: string;
+};
+
 export type WordStatus = "known" | "learning";
 
 export type SessionMode = "all" | "learning";

@@ -13,9 +13,13 @@ Next.js 15 app (App Router, static export) for practising Finnish → English vo
 | File | Purpose |
 | --- | --- |
 | `words.json` | The deck: `[{ "finnish": "...", "english": "..." }]` |
+| `rules.json` | Grammar rules, maintained separately from the deck |
 | `lib/deck.ts` | Deck loading, session creation, merge/shuffle/count helpers |
+| `lib/rules.ts` | Rule loading and normalisation |
 | `lib/storage.ts` | localStorage persistence for the session |
+| `components/SiteHeader.tsx` | Shared header with Cards / Rules section nav |
 | `components/FlashcardApp.tsx` | Main UI: deck stats, controls, summary |
+| `app/rules/page.tsx` | Separate rules page (`/rules`) |
 | `components/Flashcard.tsx` | 3D flip card |
 | `__tests__/deck.test.ts` | Tests for deck logic |
 

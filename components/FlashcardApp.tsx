@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import { ConfirmDialog } from "@/components/ConfirmDialog";
 import { Flashcard } from "@/components/Flashcard";
+import { SiteHeader } from "@/components/SiteHeader";
 import { WordsDialog } from "@/components/WordsDialog";
 import {
   countStatuses,
@@ -251,12 +252,7 @@ export function FlashcardApp() {
 
   return (
     <div className="mx-auto max-w-[980px] px-5 py-8 sm:px-[32px] sm:py-12">
-      <header className="mb-8 flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 border-b-[3px] border-double border-black pb-4">
-        <h1 className="text-[18px] font-bold uppercase tracking-[0.03em]">
-          Finnish Flashcards
-        </h1>
-        <p className="text-[13px] text-[#6b6b6b]">Suomi → English</p>
-      </header>
+      <SiteHeader active="cards" />
 
       {!session ? (
         <p className="text-sm text-[#6b6b6b]">Loading deck…</p>
