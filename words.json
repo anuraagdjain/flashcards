@@ -1,99 +1,718 @@
 [
-  { "finnish": "hei", "english": "hello" },
-  { "finnish": "kiitos", "english": "thank you" },
-  { "finnish": "kyllä", "english": "yes" },
-  { "finnish": "ei", "english": "no" },
-  { "finnish": "hyvää päivää", "english": "good day" },
-  { "finnish": "näkemiin", "english": "goodbye" },
-  { "finnish": "ystävä", "english": "friend" },
-  { "finnish": "perhe", "english": "family" },
-  { "finnish": "äiti", "english": "mother" },
-  { "finnish": "isä", "english": "father" },
-  { "finnish": "lapsi", "english": "child" },
-  { "finnish": "mies", "english": "man" },
-  { "finnish": "nainen", "english": "woman" },
-  { "finnish": "poika", "english": "boy" },
-  { "finnish": "tyttö", "english": "girl" },
-  { "finnish": "koti", "english": "home" },
-  { "finnish": "talo", "english": "house" },
-  { "finnish": "koulu", "english": "school" },
-  { "finnish": "työ", "english": "work" },
-  { "finnish": "kirja", "english": "book" },
-  { "finnish": "pöytä", "english": "table" },
-  { "finnish": "tuoli", "english": "chair" },
-  { "finnish": "auto", "english": "car" },
-  { "finnish": "juna", "english": "train" },
-  { "finnish": "kaupunki", "english": "city" },
-  { "finnish": "kauppa", "english": "shop" },
-  { "finnish": "raha", "english": "money" },
-  { "finnish": "aika", "english": "time" },
-  { "finnish": "vesi", "english": "water" },
-  { "finnish": "meri", "english": "sea" },
-  { "finnish": "metsä", "english": "forest" },
-  { "finnish": "aurinko", "english": "sun" },
-  { "finnish": "kuu", "english": "moon" },
-  { "finnish": "tähti", "english": "star" },
-  { "finnish": "taivas", "english": "sky" },
-  { "finnish": "lumi", "english": "snow" },
-  { "finnish": "sade", "english": "rain" },
-  { "finnish": "tuuli", "english": "wind" },
-  { "finnish": "aamu", "english": "morning" },
-  { "finnish": "ilta", "english": "evening" },
-  { "finnish": "yö", "english": "night" },
-  { "finnish": "päivä", "english": "day" },
-  { "finnish": "viikko", "english": "week" },
-  { "finnish": "kuukausi", "english": "month" },
-  { "finnish": "vuosi", "english": "year" },
-  { "finnish": "kesä", "english": "summer" },
-  { "finnish": "talvi", "english": "winter" },
-  { "finnish": "kevät", "english": "spring" },
-  { "finnish": "syksy", "english": "autumn" },
-  { "finnish": "ruoka", "english": "food" },
-  { "finnish": "kahvi", "english": "coffee" },
-  { "finnish": "tee", "english": "tea" },
-  { "finnish": "maito", "english": "milk" },
-  { "finnish": "leipä", "english": "bread" },
-  { "finnish": "omena", "english": "apple" },
-  { "finnish": "kala", "english": "fish" },
-  { "finnish": "liha", "english": "meat" },
-  { "finnish": "syödä", "english": "to eat" },
-  { "finnish": "juoda", "english": "to drink" },
-  { "finnish": "puhua", "english": "to speak" },
-  { "finnish": "kuunnella", "english": "to listen" },
-  { "finnish": "lukea", "english": "to read" },
-  { "finnish": "kirjoittaa", "english": "to write" },
-  { "finnish": "kävellä", "english": "to walk" },
-  { "finnish": "juosta", "english": "to run" },
-  { "finnish": "nukkua", "english": "to sleep" },
-  { "finnish": "oppia", "english": "to learn" },
-  { "finnish": "ymmärtää", "english": "to understand" },
-  { "finnish": "rakastaa", "english": "to love" },
-  { "finnish": "iso", "english": "big" },
-  { "finnish": "pieni", "english": "small" },
-  { "finnish": "hyvä", "english": "good" },
-  { "finnish": "huono", "english": "bad" },
-  { "finnish": "kaunis", "english": "beautiful" },
-  { "finnish": "nopea", "english": "fast" },
-  { "finnish": "hidas", "english": "slow" },
-  { "finnish": "uusi", "english": "new" },
-  { "finnish": "vanha", "english": "old" },
-  { "finnish": "helppo", "english": "easy" },
-  { "finnish": "vaikea", "english": "difficult" },
-  { "finnish": "kylmä", "english": "cold" },
-  { "finnish": "kuuma", "english": "hot" },
-  { "finnish": "onnellinen", "english": "happy" },
-  { "finnish": "surullinen", "english": "sad" },
-  { "finnish": "väsynyt", "english": "tired" },
-  { "finnish": "nälkäinen", "english": "hungry" },
-  { "finnish": "punainen", "english": "red" },
-  { "finnish": "sininen", "english": "blue" },
-  { "finnish": "vihreä", "english": "green" },
-  { "finnish": "keltainen", "english": "yellow" },
-  { "finnish": "musta", "english": "black" },
-  { "finnish": "valkoinen", "english": "white" },
-  { "finnish": "yksi", "english": "one" },
-  { "finnish": "kaksi", "english": "two" },
-  { "finnish": "kolme", "english": "three" },
-  { "finnish": "neljä", "english": "four" },
-  { "finnish": "viisi", "english": "five" }
+  {
+    "finnish": "hei",
+    "english": "hello"
+  },
+  {
+    "finnish": "kiitos",
+    "english": "thank you"
+  },
+  {
+    "finnish": "kyllä",
+    "english": "yes"
+  },
+  {
+    "finnish": "ei",
+    "english": "no"
+  },
+  {
+    "finnish": "hyvää päivää",
+    "english": "good day"
+  },
+  {
+    "finnish": "näkemiin",
+    "english": "goodbye"
+  },
+  {
+    "finnish": "ystävä",
+    "english": "friend"
+  },
+  {
+    "finnish": "perhe",
+    "english": "family"
+  },
+  {
+    "finnish": "äiti",
+    "english": "mother"
+  },
+  {
+    "finnish": "isä",
+    "english": "father"
+  },
+  {
+    "finnish": "lapsi",
+    "english": "child"
+  },
+  {
+    "finnish": "mies",
+    "english": "man"
+  },
+  {
+    "finnish": "nainen",
+    "english": "woman"
+  },
+  {
+    "finnish": "poika",
+    "english": "boy"
+  },
+  {
+    "finnish": "tyttö",
+    "english": "girl"
+  },
+  {
+    "finnish": "koti",
+    "english": "home"
+  },
+  {
+    "finnish": "talo",
+    "english": "house"
+  },
+  {
+    "finnish": "koulu",
+    "english": "school"
+  },
+  {
+    "finnish": "työ",
+    "english": "work"
+  },
+  {
+    "finnish": "kirja",
+    "english": "book"
+  },
+  {
+    "finnish": "pöytä",
+    "english": "table"
+  },
+  {
+    "finnish": "tuoli",
+    "english": "chair"
+  },
+  {
+    "finnish": "auto",
+    "english": "car"
+  },
+  {
+    "finnish": "juna",
+    "english": "train"
+  },
+  {
+    "finnish": "kaupunki",
+    "english": "city"
+  },
+  {
+    "finnish": "kauppa",
+    "english": "shop"
+  },
+  {
+    "finnish": "raha",
+    "english": "money"
+  },
+  {
+    "finnish": "aika",
+    "english": "time"
+  },
+  {
+    "finnish": "vesi",
+    "english": "water"
+  },
+  {
+    "finnish": "meri",
+    "english": "sea"
+  },
+  {
+    "finnish": "metsä",
+    "english": "forest"
+  },
+  {
+    "finnish": "aurinko",
+    "english": "sun"
+  },
+  {
+    "finnish": "kuu",
+    "english": "moon"
+  },
+  {
+    "finnish": "tähti",
+    "english": "star"
+  },
+  {
+    "finnish": "taivas",
+    "english": "sky"
+  },
+  {
+    "finnish": "lumi",
+    "english": "snow"
+  },
+  {
+    "finnish": "sade",
+    "english": "rain"
+  },
+  {
+    "finnish": "tuuli",
+    "english": "wind"
+  },
+  {
+    "finnish": "aamu",
+    "english": "morning"
+  },
+  {
+    "finnish": "ilta",
+    "english": "evening"
+  },
+  {
+    "finnish": "yö",
+    "english": "night"
+  },
+  {
+    "finnish": "päivä",
+    "english": "day"
+  },
+  {
+    "finnish": "viikko",
+    "english": "week"
+  },
+  {
+    "finnish": "kuukausi",
+    "english": "month"
+  },
+  {
+    "finnish": "vuosi",
+    "english": "year"
+  },
+  {
+    "finnish": "kesä",
+    "english": "summer"
+  },
+  {
+    "finnish": "talvi",
+    "english": "winter"
+  },
+  {
+    "finnish": "kevät",
+    "english": "spring"
+  },
+  {
+    "finnish": "syksy",
+    "english": "autumn"
+  },
+  {
+    "finnish": "ruoka",
+    "english": "food"
+  },
+  {
+    "finnish": "kahvi",
+    "english": "coffee"
+  },
+  {
+    "finnish": "tee",
+    "english": "tea"
+  },
+  {
+    "finnish": "maito",
+    "english": "milk"
+  },
+  {
+    "finnish": "leipä",
+    "english": "bread"
+  },
+  {
+    "finnish": "omena",
+    "english": "apple"
+  },
+  {
+    "finnish": "kala",
+    "english": "fish"
+  },
+  {
+    "finnish": "liha",
+    "english": "meat"
+  },
+  {
+    "finnish": "syödä",
+    "english": "to eat"
+  },
+  {
+    "finnish": "juoda",
+    "english": "to drink"
+  },
+  {
+    "finnish": "puhua",
+    "english": "to speak"
+  },
+  {
+    "finnish": "kuunnella",
+    "english": "to listen"
+  },
+  {
+    "finnish": "lukea",
+    "english": "to read"
+  },
+  {
+    "finnish": "kirjoittaa",
+    "english": "to write"
+  },
+  {
+    "finnish": "kävellä",
+    "english": "to walk"
+  },
+  {
+    "finnish": "juosta",
+    "english": "to run"
+  },
+  {
+    "finnish": "nukkua",
+    "english": "to sleep"
+  },
+  {
+    "finnish": "oppia",
+    "english": "to learn"
+  },
+  {
+    "finnish": "ymmärtää",
+    "english": "to understand"
+  },
+  {
+    "finnish": "rakastaa",
+    "english": "to love"
+  },
+  {
+    "finnish": "iso",
+    "english": "big"
+  },
+  {
+    "finnish": "pieni",
+    "english": "small"
+  },
+  {
+    "finnish": "hyvä",
+    "english": "good"
+  },
+  {
+    "finnish": "huono",
+    "english": "bad"
+  },
+  {
+    "finnish": "kaunis",
+    "english": "beautiful"
+  },
+  {
+    "finnish": "nopea",
+    "english": "fast"
+  },
+  {
+    "finnish": "hidas",
+    "english": "slow"
+  },
+  {
+    "finnish": "uusi",
+    "english": "new"
+  },
+  {
+    "finnish": "vanha",
+    "english": "old"
+  },
+  {
+    "finnish": "helppo",
+    "english": "easy"
+  },
+  {
+    "finnish": "vaikea",
+    "english": "difficult"
+  },
+  {
+    "finnish": "kylmä",
+    "english": "cold"
+  },
+  {
+    "finnish": "kuuma",
+    "english": "hot"
+  },
+  {
+    "finnish": "onnellinen",
+    "english": "happy"
+  },
+  {
+    "finnish": "surullinen",
+    "english": "sad"
+  },
+  {
+    "finnish": "väsynyt",
+    "english": "tired"
+  },
+  {
+    "finnish": "nälkäinen",
+    "english": "hungry"
+  },
+  {
+    "finnish": "punainen",
+    "english": "red"
+  },
+  {
+    "finnish": "sininen",
+    "english": "blue"
+  },
+  {
+    "finnish": "vihreä",
+    "english": "green"
+  },
+  {
+    "finnish": "keltainen",
+    "english": "yellow"
+  },
+  {
+    "finnish": "musta",
+    "english": "black"
+  },
+  {
+    "finnish": "valkoinen",
+    "english": "white"
+  },
+  {
+    "finnish": "yksi",
+    "english": "one"
+  },
+  {
+    "finnish": "kaksi",
+    "english": "two"
+  },
+  {
+    "finnish": "kolme",
+    "english": "three"
+  },
+  {
+    "finnish": "neljä",
+    "english": "four"
+  },
+  {
+    "finnish": "viisi",
+    "english": "five"
+  },
+  {
+    "finnish": "kova",
+    "english": "hard"
+  },
+  {
+    "finnish": "mutta",
+    "english": "but"
+  },
+  {
+    "finnish": "opiskella",
+    "english": "to study"
+  },
+  {
+    "finnish": "minä opiskelen",
+    "english": "I study"
+  },
+  {
+    "finnish": "puhun",
+    "english": "I speak"
+  },
+  {
+    "finnish": "puolaa",
+    "english": "Polish (language)"
+  },
+  {
+    "finnish": "puolalainen",
+    "english": "Polish person"
+  },
+  {
+    "finnish": "vaihto",
+    "english": "exchange"
+  },
+  {
+    "finnish": "vaihto-opiskelija",
+    "english": "exchange student"
+  },
+  {
+    "finnish": "eli",
+    "english": "or / that is"
+  },
+  {
+    "finnish": "englantia",
+    "english": "English (language)"
+  },
+  {
+    "finnish": "vähän",
+    "english": "a little / some"
+  },
+  {
+    "finnish": "saksaa",
+    "english": "German (language)"
+  },
+  {
+    "finnish": "hauska tavata",
+    "english": "nice to meet you"
+  },
+  {
+    "finnish": "huomenta",
+    "english": "good morning"
+  },
+  {
+    "finnish": "hyvää yötä",
+    "english": "good night"
+  },
+  {
+    "finnish": "öitä",
+    "english": "nights"
+  },
+  {
+    "finnish": "hyvää päivänjatkoa",
+    "english": "have a nice rest of the day"
+  },
+  {
+    "finnish": "me",
+    "english": "we"
+  },
+  {
+    "finnish": "asumme",
+    "english": "we live"
+  },
+  {
+    "finnish": "opiskelemme",
+    "english": "we study"
+  },
+  {
+    "finnish": "yliopisto",
+    "english": "university"
+  },
+  {
+    "finnish": "itä",
+    "english": "east"
+  },
+  {
+    "finnish": "länsi",
+    "english": "west"
+  },
+  {
+    "finnish": "pohjoinen",
+    "english": "north"
+  },
+  {
+    "finnish": "etelä",
+    "english": "south"
+  },
+  {
+    "finnish": "Itä-Suomen yliopisto",
+    "english": "University of Eastern Finland"
+  },
+  {
+    "finnish": "Helsingin yliopisto",
+    "english": "University of Helsinki"
+  },
+  {
+    "finnish": "kampus",
+    "english": "campus"
+  },
+  {
+    "finnish": "kampuksella",
+    "english": "at the campus"
+  },
+  {
+    "finnish": "mukava tavata",
+    "english": "nice to meet you"
+  },
+  {
+    "finnish": "harjoitellaan",
+    "english": "let's practise"
+  },
+  {
+    "finnish": "maisteriopiskelijoita",
+    "english": "master's students"
+  },
+  {
+    "finnish": "opettaja",
+    "english": "teacher"
+  },
+  {
+    "finnish": "tässä",
+    "english": "here"
+  },
+  {
+    "finnish": "pian",
+    "english": "soon"
+  },
+  {
+    "finnish": "virosta",
+    "english": "from Estonia"
+  },
+  {
+    "finnish": "lisäksi",
+    "english": "in addition / besides"
+  },
+  {
+    "finnish": "minun mies",
+    "english": "my husband"
+  },
+  {
+    "finnish": "asua",
+    "english": "to live"
+  },
+  {
+    "finnish": "muuttaa",
+    "english": "to move / relocate"
+  },
+  {
+    "finnish": "aloittaa",
+    "english": "to start / to begin"
+  },
+  {
+    "finnish": "muuta",
+    "english": "move somewhere / change"
+  },
+  {
+    "finnish": "muutan",
+    "english": "I'm moving"
+  },
+  {
+    "finnish": "takaisin",
+    "english": "back"
+  },
+  {
+    "finnish": "se",
+    "english": "it"
+  },
+  {
+    "finnish": "anna",
+    "english": "give (imperative)"
+  },
+  {
+    "finnish": "mikä",
+    "english": "what / which"
+  },
+  {
+    "finnish": "tenttikirja",
+    "english": "exam book"
+  },
+  {
+    "finnish": "etunimi",
+    "english": "given name"
+  },
+  {
+    "finnish": "sukunimi",
+    "english": "family name"
+  },
+  {
+    "finnish": "mikä sinun nimi on?",
+    "english": "what is your name?"
+  },
+  {
+    "finnish": "kämppis",
+    "english": "flatmate"
+  },
+  {
+    "finnish": "ovi",
+    "english": "door"
+  },
+  {
+    "finnish": "avaa",
+    "english": "open (imperative)"
+  },
+  {
+    "finnish": "tekö?",
+    "english": "you?"
+  },
+  {
+    "finnish": "täällä",
+    "english": "here"
+  },
+  {
+    "finnish": "meidän",
+    "english": "our"
+  },
+  {
+    "finnish": "ei se mitään",
+    "english": "it's okay"
+  },
+  {
+    "finnish": "me opetamme",
+    "english": "we teach"
+  },
+  {
+    "finnish": "mistä",
+    "english": "where from"
+  },
+  {
+    "finnish": "tämä",
+    "english": "this"
+  },
+  {
+    "finnish": "opettaa",
+    "english": "to teach"
+  },
+  {
+    "finnish": "laita",
+    "english": "put / place (imperative)"
+  },
+  {
+    "finnish": "laittaa",
+    "english": "to put"
+  },
+  {
+    "finnish": "tavarat",
+    "english": "belongings"
+  },
+  {
+    "finnish": "sinne",
+    "english": "to there"
+  },
+  {
+    "finnish": "keitän",
+    "english": "I make / brew"
+  },
+  {
+    "finnish": "jutellaan",
+    "english": "let's chat"
+  },
+  {
+    "finnish": "jutella",
+    "english": "to chat"
+  },
+  {
+    "finnish": "tutustutaan",
+    "english": "let's get to know each other"
+  },
+  {
+    "finnish": "tutustua",
+    "english": "to get to know"
+  },
+  {
+    "finnish": "tänne",
+    "english": "to here"
+  },
+  {
+    "finnish": "sana",
+    "english": "word"
+  },
+  {
+    "finnish": "ei vielä",
+    "english": "not yet"
+  },
+  {
+    "finnish": "en vielä",
+    "english": "not yet (I...)"
+  },
+  {
+    "finnish": "vielä",
+    "english": "still / yet"
+  },
+  {
+    "finnish": "suomea",
+    "english": "Finnish (language)"
+  },
+  {
+    "finnish": "missä",
+    "english": "where"
+  },
+  {
+    "finnish": "kiinassa",
+    "english": "in China"
+  },
+  {
+    "finnish": "italiassa",
+    "english": "in Italy"
+  },
+  {
+    "finnish": "puhelinnumero",
+    "english": "phone number"
+  }
 ]
