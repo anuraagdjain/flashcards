@@ -1422,5 +1422,309 @@
   {
     "finnish": "hiekkalaatikolla",
     "english": "in the sandbox"
+  },
+  {
+    "finnish": "matkaa",
+    "english": "journey"
+  },
+  {
+    "finnish": "työmatka",
+    "english": "business trip"
+  },
+  {
+    "finnish": "toimisto",
+    "english": "office"
+  },
+  {
+    "finnish": "hakea",
+    "english": "to pick up / to get"
+  },
+  {
+    "finnish": "yhdelle",
+    "english": "for one"
+  },
+  {
+    "finnish": "kuka",
+    "english": "who"
+  },
+  {
+    "finnish": "miksi",
+    "english": "why?"
+  },
+  {
+    "finnish": "palaa",
+    "english": "to return / to come back"
+  },
+  {
+    "finnish": "kiinni",
+    "english": "closed"
+  },
+  {
+    "finnish": "auki",
+    "english": "open"
+  },
+  {
+    "finnish": "avoin",
+    "english": "open"
+  },
+  {
+    "finnish": "tuntea",
+    "english": "to know"
+  },
+  {
+    "finnish": "kertoa",
+    "english": "to tell"
+  },
+  {
+    "finnish": "myöhemmin",
+    "english": "later"
+  },
+  {
+    "finnish": "no",
+    "english": "well"
+  },
+  {
+    "finnish": "joo",
+    "english": "yes"
+  },
+  {
+    "finnish": "ehkä",
+    "english": "maybe / perhaps"
+  },
+  {
+    "finnish": "rakas",
+    "english": "beloved / sweet"
+  },
+  {
+    "finnish": "mihin",
+    "english": "where to"
+  },
+  {
+    "finnish": "minne",
+    "english": "where to"
+  },
+  {
+    "finnish": "bussi",
+    "english": "bus"
+  },
+  {
+    "finnish": "hella",
+    "english": "stove / cooker"
+  },
+  {
+    "finnish": "vesipannun",
+    "english": "kettle"
+  },
+  {
+    "finnish": "pannu",
+    "english": "pot"
+  },
+  {
+    "finnish": "joki",
+    "english": "river"
+  },
+  {
+    "finnish": "järvi",
+    "english": "lake"
+  },
+  {
+    "finnish": "saari",
+    "english": "island"
+  },
+  {
+    "finnish": "niemi",
+    "english": "peninsula"
+  },
+  {
+    "finnish": "mäki",
+    "english": "hill"
+  },
+  {
+    "finnish": "laskea",
+    "english": "to pour / to flow (water)"
+  },
+  {
+    "finnish": "kiehua",
+    "english": "to boil"
+  },
+  {
+    "finnish": "kaataa",
+    "english": "to pour (from one container to another)"
+  },
+  {
+    "finnish": "toivottavasti",
+    "english": "hopefully"
+  },
+  {
+    "finnish": "tänä aamuna",
+    "english": "this morning"
+  },
+  {
+    "finnish": "aikataulu",
+    "english": "timetable"
+  },
+  {
+    "finnish": "lentokone",
+    "english": "airplane"
+  },
+  {
+    "finnish": "saapua",
+    "english": "to arrive"
+  },
+  {
+    "finnish": "lentoasema",
+    "english": "airport"
+  },
+  {
+    "finnish": "jatkaa",
+    "english": "to continue"
+  },
+  {
+    "finnish": "paljonko",
+    "english": "how much?"
+  },
+  {
+    "finnish": "vaille",
+    "english": "to (for time)"
+  },
+  {
+    "finnish": "kotitehtävä",
+    "english": "homework / homework assignment"
+  },
+  {
+    "finnish": "seinäkello",
+    "english": "wall clock"
+  },
+  {
+    "finnish": "rannekello",
+    "english": "wrist watch"
+  },
+  {
+    "finnish": "herätyskello",
+    "english": "alarm clock"
+  },
+  {
+    "finnish": "kirkonkello",
+    "english": "church bell"
+  },
+  {
+    "finnish": "iltapäivä",
+    "english": "afternoon"
+  },
+  {
+    "finnish": "herää",
+    "english": "to wake up"
+  },
+  {
+    "finnish": "salaattia",
+    "english": "salad"
+  },
+  {
+    "finnish": "vene",
+    "english": "boat"
+  },
+  {
+    "finnish": "laiva",
+    "english": "ship"
+  },
+  {
+    "finnish": "istua",
+    "english": "to sit"
+  },
+  {
+    "finnish": "puhelinkeskustelu",
+    "english": "telephone conversation"
+  },
+  {
+    "finnish": "vanhentunut",
+    "english": "expired"
+  },
+  {
+    "finnish": "tällä viikolla",
+    "english": "this week"
+  },
+  {
+    "finnish": "päästä",
+    "english": "to get"
+  },
+  {
+    "finnish": "sopia",
+    "english": "to fit / to be convenient"
+  },
+  {
+    "finnish": "kaikki",
+    "english": "all / everyone"
+  },
+  {
+    "finnish": "silloin",
+    "english": "then / at that time"
+  },
+  {
+    "finnish": "ajat",
+    "english": "times (plural)"
+  },
+  {
+    "finnish": "varattu",
+    "english": "reserved / booked"
+  },
+  {
+    "finnish": "vapaa",
+    "english": "free"
+  },
+  {
+    "finnish": "ilmainen",
+    "english": "free of charge (no cost)"
+  },
+  {
+    "finnish": "hienoa",
+    "english": "great"
+  },
+  {
+    "finnish": "henkilötunnus",
+    "english": "personal identification number"
+  },
+  {
+    "finnish": "alkuosa",
+    "english": "first part"
+  },
+  {
+    "finnish": "mukaan",
+    "english": "with / along / according to"
+  },
+  {
+    "finnish": "sitä ennen",
+    "english": "before that"
+  },
+  {
+    "finnish": "selvä",
+    "english": "clear / okay"
+  },
+  {
+    "finnish": "matkustusasiakirjat",
+    "english": "travel documents"
+  },
+  {
+    "finnish": "lippu",
+    "english": "ticket"
+  },
+  {
+    "finnish": "passi",
+    "english": "passport"
+  },
+  {
+    "finnish": "viisumi",
+    "english": "visa"
+  },
+  {
+    "finnish": "muista",
+    "english": "remember"
+  },
+  {
+    "finnish": "hotellivaraus",
+    "english": "hotel reservation"
+  },
+  {
+    "finnish": "autonvuokraus",
+    "english": "car rental"
   }
 ]

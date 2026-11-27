@@ -45,6 +45,9 @@ const navButtonClass =
 const kbdClass =
   "border border-current px-1.5 py-0.5 text-[10px] leading-none";
 
+// Module state survives client-side navigation but resets on a full page load.
+let hasShuffledForThisPageLoad = false;
+
 type StatusCounts = {
   known: number;
   learning: number;
@@ -60,7 +63,18 @@ export function FlashcardApp() {
 
   useEffect(() => {
     const stored = loadSession();
-    setSession(stored ? mergeSession(stored, words) : createSession(words));
+    const base = stored ? mergeSession(stored, words) : createSession(words);
+
+    // Shuffle once per full page load. Navigating to another route and back
+    // remounts this component, but the module stays loaded, so the stored
+    // order and position are restored unchanged.
+    if (hasShuffledForThisPageLoad) {
+      setSession(base);
+      return;
+    }
+
+    hasShuffledForThisPageLoad = true;
+    setSession({ ...base, order: shuffle(base.order), position: 0 });
   }, [words]);
 
   useEffect(() => {

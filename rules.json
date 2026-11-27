@@ -38,5 +38,15 @@
     "id": "fields-of-study",
     "title": "Fields of study",
     "body": "For most fields of study, add -a to the end: kemia → kemiaa, historia → historiaa. If the field ends in -tiede, add -ttä instead: tiede → tiedettä. The meaning does not change. If there is no Finnish name for your course, add -in to the ending."
+  },
+  {
+    "id": "to-in-from",
+    "title": "To, in and from",
+    "body": "-en means 'to', -ssa/-ssä means 'in', and -sta/-stä means 'from'. Example: suomeen, suomessa, suomesta."
+  },
+  {
+    "id": "lle-lla-lte",
+    "title": "Endings define the action",
+    "body": "-lle means 'to / onto', -lla/-llä means 'on', and -lte/-ltä means 'from'. Example: hellalle (onto the stove), hellalla (on the stove), hellalte (from the stove)."
   }
 ]
